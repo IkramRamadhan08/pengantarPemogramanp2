@@ -1,0 +1,14 @@
+Mulai
+  Baca berat dari sensor
+  Baca volume dari sensor
+
+  Tentukan standar_berat_min, standar_berat_max
+  Tentukan standar_volume_min, standar_volume_max
+
+  Jika (berat >= standar_berat_min DAN berat <= standar_berat_max) DAN
+     (volume >= standar_volume_min DAN volume <= standar_volume_max) Maka
+    Tampilkan "Produk Lolos QC"
+  Else
+    Tampilkan "Produk Gagal QC"
+  EndIf
+Selesai
